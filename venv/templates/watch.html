@@ -1,7 +1,5 @@
 <!doctype html>
-<html>
 <title>Hello from Flask</title>
-<body>
 {% if name %}
     <h1>Hello {{ name }}!</h1>
 {% else %}
@@ -9,10 +7,8 @@
 {% endif %}
 
 
-<video width="320" height="200" controls>
-    <source src="../static/video/penguins.mp4" type="video/mp4">
+<video width="640" height="480" autoplay muted>
+    <source src="/static/video/{{ name }}.mp4" type="video/mp4">
     <source src="movie.ogg" type="video/ogg">
 Your browser does not support the video tag.
 </video>
-</body>
-</html>

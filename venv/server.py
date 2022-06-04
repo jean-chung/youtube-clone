@@ -4,8 +4,8 @@ from flask import render_template
 app = Flask(__name__)
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+def home():
+    return render_template('home.html')
 
 @app.route('/watch/')
 @app.route('/watch/<name>')
