@@ -1,34 +1,50 @@
 {
     "city": {
-        "video_path": "videos/city.mp4",
-        "thumbnail": "thumbnail/city.jpg"
+        "video_path": "video/city.mp4",
+        "thumbnail": "thumbnails/city.png"
     },
     "dance": {
-        "video_path": "videos/dance.mp4",
-        "thumbnail": "thumbnail/dance.jpg"
+        "video_path": "video/dance.mp4",
+        "thumbnail": "thumbnails/dance.png"
     },
-    "doughmaking": {
-        "video_path": "videos/doughmaking.mp4",
-        "thumbnail": "thumbnail/doughmaking.jpg"
+    "dog": {
+        "video_path": "video/dog.mp4",
+        "thumbnail": "thumbnails/dog.png"
     },
-    "office": {
-        "video_path": "videos/office.mp4",
-        "thumbnail": "thumbnail/office.jpg"
+    "industrial": {
+        "video_path": "video/industrial.mp4",
+        "thumbnail": "thumbnails/industrial.png"
     },
     "party": {
-        "video_path": "videos/party.mp4",
-        "thumbnail": "thumbnail/party.jpg"
+        "video_path": "video/party.mp4",
+        "thumbnail": "thumbnails/party.png"
     },
-    "penguins": {
-        "video_path": "videos/penguins.mp4",
-        "thumbnail": "thumbnail/penguins.jpg"
+    "pray": {
+        "video_path": "video/pray.mp4",
+        "thumbnail": "thumbnails/pray.png"
+    },
+    "smile": {
+        "video_path": "video/smile.mp4",
+        "thumbnail": "thumbnails/smile.png"
     },
     "space": {
-        "video_path": "videos/space.mp4",
-        "thumbnail": "thumbnail/space.jpg"
+        "video_path": "video/space.mp4",
+        "thumbnail": "thumbnails/space.png"
+    },
+    "sunset": {
+        "video_path": "video/sunset.mp4",
+        "thumbnail": "thumbnails/sunset.png"
+    },
+    "vhs": {
+        "video_path": "video/vhs.mp4",
+        "thumbnail": "thumbnails/vhs.png"
+    },
+    "vhs2": {
+        "video_path": "video/vhs2.mp4",
+        "thumbnail": "thumbnails/vhs2.png"
     },
     "zen": {
-        "video_path": "videos/zen.mp4",
-        "thumbnail": "thumbnail/zen.jpg"
+        "video_path": "video/zen.mp4",
+        "thumbnail": "thumbnails/zen.png"
     }
 }

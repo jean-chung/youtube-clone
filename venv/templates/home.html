@@ -22,12 +22,11 @@
 
         <div class="ui vertically divided grid">
             <div class="row">
-                <a href="/watch/penguins" class="four wide column">
-                    <img src="/static/sample_thumbnail.jpg">
+                {% for name, video in db.items() %}
+                <a href="/watch/{{name}}" class="four wide column">
+                  <img src="/static/{{video.thumbnail}}">
                 </a>
-                <div class="four wide column"></div>
-                <div class="four wide column"></div>
-                <div class="four wide column"></div>
+                {% endfor %}
             </div>
             <div class="row">
                 <div class="four wide column"></div>
@@ -96,7 +95,7 @@ img + img {
 .grid .column:not(.row):not(.grid):after {
     background-color: rgba(86, 61, 124, .15);
     box-shadow: 0px 0px 0px 1px rgba(86, 61, 124, 0.2) inset;
-    content: "";
+    content: none;
     display: block;
     min-height: 50px;
 }
