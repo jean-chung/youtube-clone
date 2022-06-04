@@ -22,9 +22,10 @@
 
         <div class="ui vertically divided grid">
             <div class="row">
-                {% for name, video in db.items() %}
-                <a href="/watch/{{name}}" class="four wide column">
-                  <img src="/static/{{video.thumbnail}}">
+                {% for row in videoList %}
+                <a href="/watch/{{row.name}}" class="four wide column">
+                    <h1>{{row.name.capitalize()}}</h1>
+                    <img src="/static/{{row.video.thumbnail}}">
                 </a>
                 {% endfor %}
             </div>
