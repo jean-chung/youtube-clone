@@ -1,0 +1,34 @@
+{
+    "city": {
+        "video_path": "videos/city.mp4",
+        "thumbnail": "thumbnail/city.jpg"
+    },
+    "dance": {
+        "video_path": "videos/dance.mp4",
+        "thumbnail": "thumbnail/dance.jpg"
+    },
+    "doughmaking": {
+        "video_path": "videos/doughmaking.mp4",
+        "thumbnail": "thumbnail/doughmaking.jpg"
+    },
+    "office": {
+        "video_path": "videos/office.mp4",
+        "thumbnail": "thumbnail/office.jpg"
+    },
+    "party": {
+        "video_path": "videos/party.mp4",
+        "thumbnail": "thumbnail/party.jpg"
+    },
+    "penguins": {
+        "video_path": "videos/penguins.mp4",
+        "thumbnail": "thumbnail/penguins.jpg"
+    },
+    "space": {
+        "video_path": "videos/space.mp4",
+        "thumbnail": "thumbnail/space.jpg"
+    },
+    "zen": {
+        "video_path": "videos/zen.mp4",
+        "thumbnail": "thumbnail/zen.jpg"
+    }
+}
